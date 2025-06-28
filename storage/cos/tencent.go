@@ -4,10 +4,12 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/A-Drop-Water/xutil/storage"
-	"github.com/tencentyun/cos-go-sdk-v5"
 	"io"
 	"net/http"
+	"time"
+
+	"github.com/A-Drop-Water/xutil/storage"
+	"github.com/tencentyun/cos-go-sdk-v5"
 )
 
 // cosStorage 腾讯的cos storage
@@ -26,7 +28,7 @@ func (c *cosStorage) setNewClient(bucket string) error {
 	baseURL := &cos.BaseURL{BucketURL: bucketURL}
 	// 2. 创建HTTP客户端
 	httpClient := &http.Client{
-		Timeout: c.config.Timeout,
+		Timeout: c.config.Timeout * time.Second,
 		Transport: &cos.AuthorizationTransport{
 			SecretID:     c.config.AccessKey,
 			SecretKey:    c.config.SecretKey,
