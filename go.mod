@@ -14,6 +14,7 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.2.2
 	github.com/hashicorp/consul/api v1.32.1
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.0.1183
+	github.com/tencentyun/cos-go-sdk-v5 v0.7.66
 	google.golang.org/grpc v1.73.0
 )
 
@@ -26,6 +27,7 @@ require (
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
+	github.com/clbanning/mxj v1.8.4 // indirect
 	github.com/clbanning/mxj/v2 v2.7.0 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
@@ -33,6 +35,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
+	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
@@ -50,6 +53,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/mozillazg/go-httpheader v0.2.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.1183 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
