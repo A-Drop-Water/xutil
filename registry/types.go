@@ -1,6 +1,8 @@
 package registry
 
-import "user_api/pkg/registry/consul"
+import (
+	"github.com/A-Drop-Water/xutil/registry/consul"
+)
 
 type Registry interface {
 	RegisterHttpService(name, id, host string, port int, tags []string) error
